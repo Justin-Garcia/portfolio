@@ -1,0 +1,52 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #282828;
+    color: white;
+}
+
+#JAG {
+    display: flex;
+    border: solid black 5px;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+
+}
+
+nav p {
+    display: flex;
+    align-items: normal;
+    justify-content: right;
+    font-size: large;
+    font-weight: 100;
+    color: white;
+}
+
+ .home {
+    display: flexbox;
+    height: 80vh;
+    margin: auto;
+}
+.languages {
+    display: flexbox;
+    height: 20vh;
+}
+
+.languages img {
+    display: flexbox;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: none;
+    z-index: 2;
+    height: 20vh;
+    width: 20vh;
+
+}
+
+.languages p {
+    display: flexbox;
+    position: absolute;
+    font-size: 100px;
+    font-weight: 300;
+    z-index: 1;
+}
