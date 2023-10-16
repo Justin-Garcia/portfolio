@@ -76,3 +76,14 @@ h1 {
   font-weight: 300;
   z-index: 0;
 }
+
+
+/* Works Card */
+ul {
+    list-style: none;
+}
+
+img.work {
+    width: 150px;
+    height: 100px;
+}
