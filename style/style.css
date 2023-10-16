@@ -7,12 +7,14 @@
 }
 
 .card {
-    position: relative;
-    border: 5px solid black;
-    border-radius: 30px;
-    display: flexbox;
-    padding: 10px;
-    box-shadow: 5px 5px 10px gray;
+  position: relative;
+  border: 5px solid black;
+  border-radius: 30px;
+  display: flexbox;
+  padding: 10px;
+  box-shadow: 5px 5px 10px gray;
+  min-width: 33vh;
+  min-height: 50vh;
 }
 
 /* Nav bar appearance */
@@ -26,22 +28,25 @@ nav p {
   color: #282828;
 }
 /* Top Section */
-.home {
+section.home {
   display: flexbox;
-  height: 80vh;
+  height: 50vh;
   margin: auto;
   text-align: center;
   flex: 1 1 2;
- 
 }
 
-#JAG {
+#avatar {
   display: flex;
   border-radius: 25px;
   width: 100px;
   height: 100px;
   margin: 5px;
   box-shadow: 5 5 5;
+}
+
+.intro {
+    font
 }
 
 h1 {
@@ -59,7 +64,7 @@ h1 {
   justify-content: space-evenly;
   position: relative;
   background-color: none;
-  z-index: 2;
+  z-index: 1;
   height: 20vh;
   width: 20vh;
 }
@@ -69,5 +74,5 @@ h1 {
   position: absolute;
   font-size: 100px;
   font-weight: 300;
-  z-index: 1;
+  z-index: 0;
 }
