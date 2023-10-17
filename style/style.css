@@ -3,32 +3,48 @@
   font-family: Arial, Helvetica, sans-serif;
   color: #282828;
   background-color: white;
-  margin: 8vh;
+  margin: 3vh;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.card {
+.card1 {
+  display: flexbox;
   position: relative;
   border: 5px solid black;
   border-radius: 30px;
-  display: flexbox;
   padding: 10px;
   box-shadow: 5px 5px 10px gray;
+  width: 700px;
   min-width: 33vh;
   min-height: 50vh;
 }
 
+.card2 {
+  display: flexbox;
+  position: relative;
+  border: 5px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: 5px 5px 10px gray;
+  min-width: 40vh;
+  width: 400px;
+  height: 500px;
+}
 /* Nav bar appearance */
 
 nav p {
-  display: flex;
-  align-items: normal;
+    display: flexbox;
   justify-content: right;
-  font-size: large;
+  font-size: 18px;
   font-weight: 100;
   color: #282828;
 }
+
 /* Top Section */
-section.home {
+section #home {
   display: flexbox;
   height: 50vh;
   margin: auto;
@@ -45,12 +61,9 @@ section.home {
   box-shadow: 5 5 5;
 }
 
-.intro {
-    font
-}
-
 h1 {
   font-size: 100px;
+  flex: auto;
 }
 
 /* "Skill(s)" Section */
@@ -61,29 +74,34 @@ h1 {
 
 .languages img {
   display: flexbox;
-  justify-content: space-evenly;
+  justify-content: space-between;
   position: relative;
   background-color: none;
-  z-index: 1;
-  height: 20vh;
-  width: 20vh;
+
+  height: 50px;
+  width: 50px;
 }
 
 .languages p {
   display: flexbox;
   position: absolute;
   font-size: 100px;
-  font-weight: 300;
-  z-index: 0;
+  font-weight: bolder;
+  opacity: 20%;
 }
 
+/* Location */
+#map img {
+   object-fit: fill;
+}
 
 /* Works Card */
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 img.work {
-    width: 150px;
-    height: 100px;
+  position: relative;
+  width: 150px;
+  height: 100px;
 }

@@ -8,46 +8,78 @@
   </head>
 
   <nav>
-    <!-- Smooth Scroll-to Buttons for Single Page Function -->
-    <p class="scrollto About">About</p>
-    <p class="scrollto Work">Work</p>
-    <p class="scrollto Contact">Contact</p>
+    <!-- Smooth Scroll-to Buttons for Single Page Function  -->
+    <p><a href="#home">About</a></p>
+    <p><a href="#work">Work</a></p>
+    <p><a href="#contact">Contact Me</a></p>
   </nav>
+  <body>
+    <!-- First thing you see on the page -->
+    <section id="home" class="card1">
+      <img
+        id="avatar"
+        src="./images/Memoji portfolio.jpg"
+        alt="Justin's Memoji"
+      />
+      <h1>Justin Garcia</h1>
+      <p>
+        I am a fullstack web developer based in New York City. I love
+        minimalistic, retro, and modern design. With a passion for problem
+        solving, learning, and pop culture, I aim to create aesthetic and unique
+        web pages.
+      </p>
+    </section>
 
-  <!-- First thing you see on the page -->
-  <section class="home card">
-    <img
-      id="avatar"
-      src="./images/Memoji portfolio.jpg"
-      alt="Justin's Memoji"
-    />
-    <h1>Justin Garcia</h1>
-    <p>
-      I am a fullstack web developer based in New York City. I love
-      minimalistic, retro, and modern design. With a passion for problem
-      solving, learning, and pop culture, I aim to create aesthetic and unique
-      web pages.
-    </p>
-  </section>
+    <!-- Programming Languages/Skills Section (Want to add revolving/wrapping text behind the logos) -->
+    <section class="languages card2">
+      <p>SKILLS</p>
+      <img src="./images/html-5-svgrepo-com.svg" alt="HTML" />
+      <img src="./images/css-3-svgrepo-com.svg" alt="CSS" />
+      <img src="./images/javascript-logo-svgrepo-com.svg" alt="JavaScript" />
+    </section>
 
-  <!-- Programming Languages/Skills Section (Want to add revolving/wrapping text behind the logos) -->
-  <section class="languages card">
-    <!-- <p>SKILLS</p> -->
-    <img src="./images/html-5-svgrepo-com.svg" alt="HTML" />
-    <img src="./images/css-3-svgrepo-com.svg" alt="CSS" />
-  </section>
+    <!-- Location figure (unsure about this) -->
+    <figure id="map" class="card2">
+      <!-- <img src="./images/my_location.png" alt="NYC 🍎" /> -->
+    </figure>
 
-  <!-- Place for recent/best projects (to be updated) -->
-  <section class="works card">
-    <ul>
-      <li> <img class="work" src="./images/placeholder-image.png" alt="Website 1"></li>
-      <li> <img class="work" src="./images/placeholder-image.png" alt="Website 2"></li>
-      <li> <img class="work" src="./images/placeholder-image.png" alt="Website 3"></li>
-    </ul>
-  </section>
-
-  <!-- Location figure (unsure about this) -->
-  <figure id="map" class="card">
-    <!-- <img src="./images/my_location.png" alt="NYC 🍎" /> -->
-  </figure>
+    <!-- Place for recent/best projects (to be updated) -->
+    <section id="work" class="card1">
+      <ul>
+        <li>
+          <img
+            class="work"
+            src="./images/placeholder-image.png"
+            alt="Website 1"
+          />
+          <figcaption>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            amet dolores illo mollitia dolorum enim! Totam, fugiat.
+          </figcaption>
+        </li>
+        <li>
+          <img
+            class="work"
+            src="./images/placeholder-image.png"
+            alt="Website 2"
+          />
+          <figcaption>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            amet dolores illo mollitia dolorum enim! Totam, fugiat.
+          </figcaption>
+        </li>
+        <li>
+          <img
+            class="work"
+            src="./images/placeholder-image.png"
+            alt="Website 3"
+          />
+          <figcaption>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            amet dolores illo mollitia dolorum enim! Totam, fugiat.
+          </figcaption>
+        </li>
+      </ul>
+    </section>
+  </body>
 </html>
